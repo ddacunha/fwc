@@ -32,20 +32,22 @@
  */
 
 html {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+    font-family: "PT Sans", Helvetica, Arial, sans-serif;
+    font-size: 18px;
 }
+
+
 @media (min-width: 48em) {
-  html {
-    font-size: 16px;
-  }
-}
-@media (min-width: 58em) {
-  html {
-    font-size: 20px;
-  }
+    html {
+        font-size: 18px;
+    }
 }
 
-
+@media (min-width: 64em) {
+    html {
+        font-size: 20px;
+    }
+}
 /*
  * Sidebar
  *
@@ -55,19 +57,40 @@ html {
 
 .sidebar {
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 1rem 1rem;
   color: rgba(255,255,255,.5);
   background-color: #202020;
 }
+
+.sidebar-subtext {
+  text-align: right;
+}
+
+@media (max-width: 48em) {
+    .lead {
+        text-align: right;
+    }
+    .sidebar-nav-item {
+        line-height: 1.75;
+    }
+    p.copyrights {
+        margin-bottom: 0rem;
+        text-align: left;
+    }
+    a.sidebar-nav-item {
+        text-align: right;
+    }
+}
 @media (min-width: 48em) {
-  .sidebar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 18rem;
-    text-align: left;
-  }
+    .sidebar {
+        text-align: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 10rem;
+        text-align: left;
+    }
 }
 
 /* Sidebar links */
@@ -80,7 +103,11 @@ html {
   color: #fff;
   margin-top: 0;
   font-family: "Abril Fatface", serif;
-  font-size: 3.25rem;
+  font-size: 2rem;
+}
+
+.sidebar-about p {
+  font-size: 0.8rem;
 }
 
 /* Sidebar nav */
@@ -108,12 +135,11 @@ a.sidebar-nav-item:focus {
 @media (min-width: 48em) {
   .sidebar-sticky {
     position: absolute;
-    right:  1rem;
+    right:  0.5rem;
     bottom: 1rem;
-    left:   1rem;
+    left:   0.5rem;
   }
 }
-
 
 /* Container
  *
@@ -129,18 +155,17 @@ a.sidebar-nav-item:focus {
 @media (min-width: 48em) {
   .content {
     max-width: 38rem;
-    margin-left: 20rem;
+    margin-left: 11rem;
     margin-right: 2rem;
   }
 }
 
 @media (min-width: 64em) {
   .content {
-    margin-left: 22rem;
+    margin-left: 11rem;
     margin-right: 4rem;
   }
 }
-
 
 /*
  * Reverse layout
@@ -247,4 +272,8 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .content a,
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
+}
+
+.copyrights {
+    font-size: 0.5rem;
 }
