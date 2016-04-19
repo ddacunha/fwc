@@ -10,13 +10,13 @@ permalink:        pretty
 # Setup
 title:            FWC
 tagline:          'Frankly Who Cares'
-description:      'by Daniel Da Cunha.<br><a href="https://twitter.com/FrancklyWhoCares" target="_blank">@FrancklyWhoCares</a>.'
-url:              http://francklywhocares.net
+description:      'by Daniel Da Cunha.<br><a href="https://twitter.com/FranklyWhoCares" target="_blank">@FranklyWhoCares</a>.'
+url:              http://franklywhocares.net
 baseurl:          /
 
 author:
   name:           'Daniel Da Cunha'
-  url:            https://twitter.com/FrancklyWhoCares
+  url:            https://twitter.com/FranklyWhoCares
 
 paginate:         5
 

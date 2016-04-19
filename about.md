@@ -15,6 +15,6 @@ Some facts about the setup of this site includes:
 
 Have questions or suggestions? Feel free to
 [open an issue on GitHub](https://github.com/ddacunha/fwc/issues/new)
-or [ask me on Twitter](https://twitter.com/__ddc__) or [email me at](mailto:me@francklywhocares.net).
+or [ask me on Twitter](https://twitter.com/__ddc__) or [email me at](mailto:me@franklywhocares.net).
 
 Thanks for reading!
