@@ -75,10 +75,34 @@ html {
     }
     p.copyrights {
         margin-bottom: 0rem;
-        text-align: left;
+        text-align: right;
     }
     a.sidebar-nav-item {
         text-align: right;
+    }
+    .sidebar-about h1 {
+        background-color: red;
+        display:inline-block;
+    }
+
+    .lead {
+        display:inline-block;
+        float: right;
+    }
+    .sidebar {
+        text-align: left;
+        padding: 0rem 1rem;
+
+    }
+    .sidebar-nav-item.active {
+        font-weight: normal;
+    }
+    .sidebar-nav {
+        margin-bottom: 0;
+    }
+    .sidebar-about {
+        position: relative;
+        margin: auto;
     }
 }
 @media (min-width: 48em) {
@@ -90,6 +114,12 @@ html {
         bottom: 0;
         width: 10rem;
         text-align: left;
+    }
+    .sidebar-nav {
+        margin-bottom: 1rem;
+    }
+    .sidebar-nav-item.active {
+        font-weight: bold;
     }
 }
 
@@ -111,9 +141,7 @@ html {
 }
 
 /* Sidebar nav */
-.sidebar-nav {
-  margin-bottom: 1rem;
-}
+
 .sidebar-nav-item {
   display: block;
   line-height: 1.75;
@@ -122,9 +150,7 @@ a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
   text-decoration: underline;
 }
-.sidebar-nav-item.active {
-  font-weight: bold;
-}
+
 
 /* Sticky sidebar
  *
